@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  list-style-type: none;
+  font-family: "Archivo", sans-serif;
+}
+
+html {
+  font-size: 62.5%; /*1rem = 10px */
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-synthesis: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  scroll-behavior: smooth;
+  min-height: 100vh; // minimo 100vh, se o conteudo dentro for maior vai respeitar
+  background: #a3e2d833;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}

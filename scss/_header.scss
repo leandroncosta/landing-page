@@ -1,0 +1,55 @@
+//// border: 2px solid red
+
+header {
+  height: 9rem;
+  background: #142022;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 100%;
+      max-width: 5rem;
+    }
+    nav {
+      ul {
+        display: flex;
+        gap: 0 3rem;
+        li {
+          font-size: 2rem;
+          a {
+            color: #fbfbfb;
+          }
+        }
+      }
+    }
+    button {
+      background: #37676d;
+      font-size: 1.5rem;
+      border: 1px solid #37676d;
+      border-radius: 2rem;
+      color: #fff;
+      padding: 1.5rem 2.5rem;
+    }
+  }
+  @media (max-width: 991px) {
+    .container {
+      padding: 0 3rem;
+    }
+  }
+  @media (max-width: 560px) {
+    .container {
+      nav {
+        display: none;
+      }
+      button {
+        display: none;
+      }
+    }
+  }
+}
